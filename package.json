@@ -1,0 +1,27 @@
+{
+  "name": "express-session",
+  "version": "1.0.0",
+  "description": "User Authentication in Web Apps (Passport.js, Node, Express) - learn how to implement user authentication from scratch in your web apps. learn how to use Passport.js in a Node / Express app.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "springup": "node app.js",
+    "bootstrap": "node app.js",
+    "nodemon": "nodemon app.js"
+  },
+  "keywords": [
+    "Passport.js",
+    "Node",
+    "Express"
+  ],
+  "author": "Damilola Adegunwa",
+  "license": "ISC",
+  "dependencies": {
+    "connect-mongo": "^4.6.0",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.8.3",
+    "nodemon": "^2.0.20"
+  }
+}
